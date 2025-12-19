@@ -1,0 +1,9 @@
+[project]
+name = "financeMcp"
+version = "0.1.0"
+description = "MCP server"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp",
+    "yfinance",
+]

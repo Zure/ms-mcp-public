@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "mslab/visualization": {
+      "command": "uv",
+      "args": ["run", "--directory", "${workspaceFolder}/vis_mcp", "server.py"],
+      "cwd": "${workspaceFolder}"
+    },
+    "mslab/finance": {
+      "command": "uv",
+      "args": ["run", "--directory", "${workspaceFolder}/localFinance", "main.py"],
+      "cwd": "${workspaceFolder}"
+    },
+    "mslab/portfolio": {
+      "type": "http",
+      "url": "http://127.0.0.1:8000/mcp"
+    },
+    "mslab/auth": {
+      "type": "http",
+      "url": "http://127.0.0.1:8010/mcp"
+    }
+  }
+}
