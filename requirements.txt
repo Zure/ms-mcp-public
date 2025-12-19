@@ -1,0 +1,9 @@
+fastmcp
+matplotlib
+networkx
+numpy
+yfinance
+azure-cosmos
+uvicorn
+python-dotenv
+pydantic
